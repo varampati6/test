@@ -22,16 +22,16 @@
 	
   </dependencies>
   
-  <distributionManagement>
-        <repository>
+<distributionManagement>
+    <repository>
         <id>central</id>
-        <name>CVMP3529-releases</name>
-        <url>http://10.20.126.40:8181/artifactory/uprr</url>
+        <name>inbahrpc02995-releases</name>
+        <url>http://localhost:8085/artifactory/UPRR</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>CVMP3529-snapshots</name>
-        <url>http://10.20.126.40:8181/artifactory/uprr</url>
+        <name>inbahrpc02995-snapshots</name>
+        <url>http://localhost:8085/artifactory/UPRR</url>
     </snapshotRepository>
 </distributionManagement>
  
