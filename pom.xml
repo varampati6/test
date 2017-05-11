@@ -37,6 +37,7 @@
  
 <build>
     <finalName>mahindra</finalName>
+ <pluginManagement>
 <plugins>
 <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -89,6 +90,7 @@
         <version>3.2</version>
       </plugin>  
 </plugins>
+</pluginManagement>
 </build>
 </project>
 
