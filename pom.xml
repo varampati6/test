@@ -19,11 +19,7 @@
       <version>4.8</version>
       <scope>test</scope>
     </dependency>
-	<dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.0.1</version>
-</dependency>
+	
   </dependencies>
   
 <distributionManagement>
@@ -89,6 +85,11 @@
         <version>2.5.3</version>
       </plugin>
 	<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.0.1</version>
+</plugin>
 
 </plugins>
 </pluginManagement>
