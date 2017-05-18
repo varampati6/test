@@ -10,6 +10,10 @@
   
   <properties>
     <build.number>${project.version}</build.number>
+	<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+	<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+	<sonar.jacoco.reportPath>${project.build.directory}/coverage-reports/jacoco-ut.exec</sonar.jacoco.reportPath>
+	<jacoco-maven-plugin.version>0.7.4.201502262128</jacoco-maven-plugin.version>
 </properties>
 
   <dependencies>
