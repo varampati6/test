@@ -25,18 +25,7 @@
     </dependency>
 </dependencies>
   
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>UPRR</name>
-        <url>http://localhost:8085/artifactory/UPRR</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>UPRR</name>
-        <url>http://localhost:8085/artifactory/UPRR</url>
-    </snapshotRepository>
-</distributionManagement>
+
  
 <build>
     <finalName>mahindra</finalName>
